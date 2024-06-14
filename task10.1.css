@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(task10img/bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
+.gamepage{
+    margin: 40px;
+    width: 50%;
+    float: left;
+    padding: 10px;
+    
+}
+.gamepage h3{
+    padding: 15px;
+}
+.gamepage a{
+    
+    color: white;
+}
+.gamepage button{
+    color: white;
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+.gamepage button:hover{
+    box-shadow: 0 0 10px rgb(57, 2, 255);
+}
+.card{
+    
+    margin-bottom: 15px;
+    width: 250px;
+    height: 90px;
+    border-radius: 10px;
+    background-color:  #191a1c;
+    overflow: hidden;
+   
+}
+.card:hover{
+    box-shadow: 0 0 10px blue;
+}
+.card img{
+        width: 70px;
+        float: left;
+        border-radius: 10px;
+      
+}
+
+section{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+section a{
+    color: white;
+}
+form{
+    width: 300px;
+    margin: 70px;
+    border-radius: 15px;
+    float: left;
+    padding: 20px;
+    background: #fff;
+}
+form header{
+    margin: 10px;
+}
+header h2{
+   display: inline-block;
+  
+}
+header button{ 
+    margin-left: 130px;
+  background-color: #fff;
+   border: none;
+    
+}
+
+form .newuser{
+    display: inline-block;
+    padding: 20px;}
+    
+form p{
+   padding: 10px 0 0 20px;
+}
+form input{
+    width: 80%;
+    height: 30px;
+    background-color: #d7d5d5;
+    margin: 10px 0 0 20px;
+    border-radius: 5px;
+    border: none;
+}
+form .continue{
+    background-color: purple;
+    color: #fff;
+}
+form .google{
+    background-color: blue;
+    color: #fff;
+}
+
+
